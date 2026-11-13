@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Entornos / secretos
+.env
+
+# Datos locales (NO subir datos reales de medición sin validación previa)
+*.db
+*.sqlite
+data/raw/
+data/
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.vscode/
+*.drawio.bkp
+
+# LaTeX / builds (si se usan)
+*.aux
+*.log
+*.out
+build/
+dist/
