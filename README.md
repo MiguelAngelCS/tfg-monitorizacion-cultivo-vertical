@@ -4,7 +4,7 @@ Trabajo de Fin de Grado — Grado en Ingeniería en Tecnologías Industriales
 Escuela Superior de Ingeniería, Universidad de Cádiz
 
 **Alumno:** Miguel Ángel Castillo Sánchez
-**Tutor:** Salvador Cañas Moreno (UCA, TEP-940 Robótica Aplicada)
+**Tutor:** Salvador Canas Moreno (UCA, TEP-940 Robótica Aplicada)
 
 ## Resumen del proyecto
 
