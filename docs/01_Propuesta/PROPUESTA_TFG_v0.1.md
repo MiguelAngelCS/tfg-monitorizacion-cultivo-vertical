@@ -6,7 +6,7 @@
 - **Titulación:** Grado en Ingeniería en Tecnologías Industriales
 - **Escuela:** Escuela Superior de Ingeniería, Universidad de Cádiz
 - **Alumno:** Miguel Ángel Castillo Sánchez
-- **Tutor propuesto:** Salvador Cañas Moreno (Departamento de Ingeniería Eléctrica — TEP-940 Robótica Aplicada)
+- **Tutor propuesto:** Salvador Canas Moreno (UCA — TEP-940 Robótica Aplicada)
 
 ## 1. Título del proyecto
 
@@ -71,7 +71,7 @@ Markdown y diagramas en formato editable (draw.io).
 | Fase | Periodo |
 |---|---|
 | Estado del arte y diseño conceptual | nov–dic 2026 |
-| Visita a sala y levantamiento de datos | dic 2026 |
+| Levantamiento de datos en sala (pendiente de confirmar) | dic 2026 |
 | Desarrollo del software | ene–feb 2027 |
 | Instalación en sala y periodo de medición | ene–feb 2027 |
 | Redacción de capítulos 2–5 | dic 2026–mar 2027 |
@@ -96,10 +96,10 @@ código abierto (coste cero).
 
 ## 9. Riesgos y mitigación
 
-1. **Retraso de la visita a la sala** → trabajar con hipótesis documentadas hasta
-   el levantamiento de datos.
-2. **Instalación eléctrica desconocida** → ninguna compra definitiva antes de la
-   visita.
+1. **Retraso del levantamiento de datos en sala** (pendiente de confirmar) →
+   trabajar con hipótesis documentadas hasta entonces.
+2. **Instalación eléctrica desconocida** → ninguna compra definitiva antes del
+   levantamiento de datos en sala.
 3. **Datos de medida insuficientes** → escenario B: validación en laboratorio
    propio y simulación de datos declarada como tal.
 4. **Restricciones de red de la universidad** → arquitectura con broker local;

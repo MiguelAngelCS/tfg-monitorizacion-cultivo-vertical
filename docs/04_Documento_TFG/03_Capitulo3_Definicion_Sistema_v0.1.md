@@ -1,8 +1,8 @@
 # Capítulo 3 — Definición del sistema (v0.1 provisional)
 
 > Borrador provisional (noviembre 2026). Todo lo marcado como **[hipótesis]** depende
-> del levantamiento de datos en sala (visita pendiente) y quedará fijado en la v1.0
-> tras dicha visita.
+> del levantamiento de datos en sala (pendiente de confirmar) y quedará
+> fijado en la v1.0 cuando se realice.
 
 ## 3.1 Requisitos
 
@@ -96,7 +96,7 @@ El sistema sigue la arquitectura por capas validada en la literatura [8][12]:
 | Software | 0 € (open source) |
 | **Total** | **~95–180 €** (límite: 200 €) |
 
-## 3.6 Decisiones pendientes de la visita a sala
+## 3.6 Decisiones pendientes de confirmar
 
 1. Inventario definitivo de cargas, marcas y potencias (número de smart plugs).
 2. Modelo y estado de la Raspberry Pi instalada; posibilidad de usarla como datalogger.

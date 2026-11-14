@@ -18,7 +18,7 @@ de ingeniería). Se ajustará al modelo concreto que use la ESI (pendiente confi
 - Justificación (técnica, económica, formativa)
 
 ## Cap. 2 — Condiciones de partida / requisitos
-- Descripción de la instalación (sala, bandejas, tomas, cuadro) *[pendiente visita]*
+- Descripción de la instalación (sala, bandejas, tomas, cuadro) *[pendiente de confirmar]*
 - Normativa aplicable (REBT RD 842/2002, UNE aplicables, RGPD si aplica, normas UCA)
 - Restricciones y requisitos del tutor/UCA (red, presupuesto)
 
@@ -43,6 +43,9 @@ de ingeniería). Se ajustará al modelo concreto que use la ESI (pendiente confi
 - Conclusiones técnicas
 - Cumplimiento de objetivos
 - Trabajo futuro
+
+## Bibliografía
+- Única, al final de la memoria (UNE-ISO 690), con enlace a la fuente de cada referencia. Las citas en el texto enlazan con su publicación (DOI).
 
 ## Anexos
 - Manual de usuario del software (obligatorio por Art. 17.b)
