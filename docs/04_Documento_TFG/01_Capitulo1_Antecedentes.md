@@ -56,34 +56,35 @@ cuantitativamente: Jara Ochoa et al. miden un ahorro del 6,03 % (QoS 0) y del 8,
 (QoS 1) de MQTT frente a HTTP en plataformas de monitorización [[8]](https://doi.org/10.3390/s23104896).
 
 En este contexto se sitúa el presente proyecto. La Escuela Superior de Ingeniería
-de la Universidad de Cádiz dispone de una sala piloto de cultivo vertical de
-aproximadamente 10 × 15 m, alimentada íntegramente mediante tomas Schuko de
-pared, con equipamiento en crecimiento (bomba de riego con fuente de alimentación,
-luces de germinación, y luces de crecimiento y una segunda bomba previstas). No
-existe instalación de medida alguna: no hay contadores secundarios ni posibilidad
-de actuar sobre el cuadro eléctrico, por lo que la única vía de medición disponible
-es la de enchufe. A día de hoy, el consumo de la sala es una incógnita, y sin
-medirlo no puede abordarse ninguna mejora energética con rigor.
+de la Universidad de Cádiz dispone de una planta piloto de cultivo vertical alojada
+en una sala de laboratorio de aproximadamente 10 × 15 m, alimentada íntegramente
+mediante tomas Schuko de pared, con equipamiento en crecimiento (bomba de riego con
+fuente de alimentación, luces de germinación, y luces de crecimiento y una segunda
+bomba previstas). No existe instalación de medida alguna: no hay contadores
+secundarios ni posibilidad de actuar sobre el cuadro eléctrico, por lo que la única
+vía de medición disponible es la de enchufe. A día de hoy, el consumo de la planta
+es una incógnita, y sin medirlo no puede abordarse ninguna mejora energética con rigor.
 
 ## 1.2 Objetivos
 
 El objetivo general del proyecto es:
 
 > Diseñar, implementar y validar un sistema de monitorización energética de bajo
-> coste para la sala piloto de cultivo vertical de la ESI, que proporcione medidas
-> fiables y permanentes de las cargas eléctricas presentes y futuras.
+> coste para la planta piloto de cultivo vertical de la ESI, que proporcione medidas
+> fiables de las cargas eléctricas presentes y futuras.
 
 A partir de él, se definen los siguientes objetivos específicos:
 
 1. Analizar el estado del arte en monitorización energética aplicada al cultivo
-   vertical y a los plug loads, identificando tecnologías de medida, protocolos
+   vertical y a las plug loads, identificando tecnologías de medida, protocolos
    de comunicación y arquitecturas de referencia.
 2. Definir la arquitectura del sistema: sensores de medida, datalogger, base de
    datos temporal y visualización, justificando cada decisión técnica.
 3. Desarrollar el software de adquisición, almacenamiento y visualización de datos
    como proyecto de código abierto.
-4. Desplegar el sistema en la sala piloto y verificar la calidad de las medidas
-   (continuidad, razonabilidad y resolución temporal).
+4. Validar el sistema en laboratorio y documentar su despliegue en la planta
+   piloto (guía de instalación para el montaje por personal de la ESI), verificando
+   la calidad de las medidas (continuidad, razonabilidad y resolución temporal).
 5. Caracterizar el consumo real de las cargas instaladas como primera evidencia
    empírica de la planta.
 6. *(Opcional)* Integrar medida no invasiva por pinzas amperimétricas para la
@@ -93,8 +94,9 @@ A partir de él, se definen los siguientes objetivos específicos:
 
 **Dentro del alcance.** Medición por tomas de corriente de todas las cargas
 accesibles; almacenamiento en base de datos temporal; visualización mediante
-cuadros de mando; software desarrollado en abierto y documentado; despliegue y
-verificación en la sala piloto; caracterización del consumo medido.
+cuadros de mando; software desarrollado en abierto y documentado; validación en
+laboratorio y despliegue documentado en la planta piloto; caracterización del
+consumo medido.
 
 **Fuera del alcance.** El sistema no actúa sobre las cargas (no hay control ni
 automación); no se realiza análisis de línea base ni auditoría energética formal,

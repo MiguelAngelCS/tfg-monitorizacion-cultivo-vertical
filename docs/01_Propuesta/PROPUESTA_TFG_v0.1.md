@@ -15,22 +15,21 @@ cultivo vertical basado en hardware y software de código abierto.
 
 ## 2. Motivación
 
-La sala piloto de cultivo vertical de la ESI (~10 × 15 m) se alimenta
-exclusivamente mediante tomas Schuko de pared y no dispone de ningún sistema de
-medida. La literatura sitúa el consumo específico del cultivo vertical de lechuga
-entre 10 y 18 kWh/kg (Miserocchi & Franco, 2025) y muestra que la iluminación
-representa el 65–90 % del consumo. Sin medición desagregada por cargas no es
-posible caracterizar el consumo real de la instalación ni proponer mejoras con
-rigor. Se propone por tanto un sistema de monitorización de bajo coste, de
-desarrollo propio y publicado en abierto, que mida por tomas de corriente y
-almacene y visualice los datos de forma permanente.
+La planta piloto de cultivo vertical de la ESI, alojada en una sala de laboratorio
+de ~10 × 15 m, se alimenta exclusivamente mediante tomas Schuko de pared y no
+dispone de ningún sistema de medida. La literatura sitúa el consumo específico del
+cultivo vertical de lechuga entre 10 y 18 kWh/kg (Miserocchi & Franco, 2025) y
+muestra que la iluminación representa el 65–90 % del consumo. Sin medición
+desagregada por cargas no es posible caracterizar el consumo real de la instalación
+ni proponer mejoras con rigor. Se propone por tanto un sistema de monitorización de
+bajo coste, de desarrollo propio y publicado en abierto, que mida por tomas de
+corriente y almacene y visualice los datos de forma continua.
 
 ## 3. Objetivos
 
 **Objetivo general:** diseñar, implementar y validar un sistema de monitorización
-energética de bajo coste para la sala piloto de cultivo vertical de la ESI, que
-proporcione medidas fiables y permanentes de las cargas eléctricas presentes y
-futuras.
+energética de bajo coste para la planta piloto de cultivo vertical de la ESI, que
+proporcione medidas fiables de las cargas eléctricas presentes y futuras.
 
 **Objetivos específicos:**
 
@@ -40,8 +39,9 @@ futuras.
    datos temporal y visualización, justificando cada decisión técnica.
 3. Desarrollar el software de adquisición, almacenamiento y visualización como
    proyecto de código abierto.
-4. Desplegar el sistema en la sala piloto y verificar la calidad de las medidas
-   (continuidad, razonabilidad, resolución temporal).
+4. Validar el sistema en laboratorio y documentar su despliegue en la planta
+   piloto (guía de instalación para el montaje por personal de la ESI), verificando
+   la calidad de las medidas (continuidad, razonabilidad y resolución temporal).
 5. Caracterizar el consumo real de las cargas instaladas como primera evidencia
    empírica de la planta.
 6. *(Opcional)* Integrar medida no invasiva por pinzas amperimétricas (CT) para
@@ -51,8 +51,8 @@ futuras.
 
 **Dentro:** medición por tomas de corriente de todas las cargas accesibles;
 almacenamiento en base de datos temporal; visualización con cuadros de mando;
-software libre documentado; despliegue y verificación en sala; caracterización
-del consumo medido.
+software libre documentado; validación en laboratorio y despliegue documentado en
+la planta piloto; caracterización del consumo medido.
 
 **Fuera:** actuación sobre las cargas (sin control ni automatización); análisis
 de línea base o auditoría energética formal (trabajo futuro); modificaciones de
@@ -66,35 +66,17 @@ sistema; (3) desarrollo del software; (4) despliegue en planta y verificación;
 repositorios GitHub públicos bajo licencia abierta, con documentación en
 Markdown y diagramas en formato editable (draw.io).
 
-## 6. Planificación (resumen)
+## 6. Entregables
 
-| Fase | Periodo |
-|---|---|
-| Estado del arte y diseño conceptual | nov–dic 2026 |
-| Levantamiento de datos en sala (pendiente de confirmar) | dic 2026 |
-| Desarrollo del software | ene–feb 2027 |
-| Instalación en sala y periodo de medición | ene–feb 2027 |
-| Redacción de capítulos 2–5 | dic 2026–mar 2027 |
-| Resultados y conclusiones | mar 2027 |
-| Revisión final y entrega | abril 2027 (límite: 5 mayo 2027) |
-| Defensa | 17–21 mayo 2027 |
-
-## 7. Presupuesto orientativo
-
-Inferior a 200 €: smart plugs con medida (estimación 5–8 unidades), sensorica
-auxiliar de bajo coste y material de red/cableado. Se reutiliza la Raspberry Pi
-ya instalada en la sala como datalogger. El software empleado es íntegramente de
-código abierto (coste cero).
-
-## 8. Entregables
-
-1. Sistema instalado y operativo en la sala piloto.
+1. Sistema de monitorización diseñado, implementado y validado en laboratorio,
+   listo para su instalación en la planta piloto, junto con la guía de instalación
+   y despliegue para su montaje por personal de la ESI.
 2. Repositorio público con el software, la documentación y los diagramas
    (licencia abierta).
 3. Memoria del TFG según estructura UNE 157001.
 4. Manual de usuario y de mantenimiento del sistema (anexo de la memoria).
 
-## 9. Riesgos y mitigación
+## 7. Riesgos y mitigación
 
 1. **Retraso del levantamiento de datos en sala** (pendiente de confirmar) →
    trabajar con hipótesis documentadas hasta entonces.
@@ -105,7 +87,7 @@ código abierto (coste cero).
 4. **Restricciones de red de la universidad** → arquitectura con broker local;
    la publicación de datos se hace desde el propio datalogger.
 
-## 10. Ampliaciones previstas (a valorar con el tutor — posible v0.2)
+## 8. Ampliaciones previstas (a valorar con el tutor — posible v0.2)
 
 - Incorporación de **variables ambientales auxiliares** (temperatura y humedad
   interior; temperatura e irradiancia exterior mediante API meteorológica
