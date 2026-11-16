@@ -17,7 +17,6 @@ de la planta para valorar la viabilidad de proyectos de este tipo.
 ## Estructura del repositorio
 
 - `docs/01_Propuesta/` — documento de propuesta del TFG
-- `docs/02_Analisis_EstadoArte/` — investigación, fichas de fuentes y notas de lectura
 - `docs/03_Diseno/` — memoria de diseño (arquitectura, esquemas, presupuesto)
 - `docs/04_Documento_TFG/` — documento del TFG por capítulos (estructura UNE 157001)
 - `docs/06_Diagramas/` — diagramas draw.io
@@ -26,4 +25,5 @@ de la planta para valorar la viabilidad de proyectos de este tipo.
 ## Estado
 
 En desarrollo (curso 2026-27). Convocatoria objetivo: mayo 2027.
-El contenido de `docs/` es un borrador de trabajo interno.
+Este repositorio contiene únicamente los documentos formales del TFG y el software;
+el material de trabajo interno (notas, fichas de fuentes, búsquedas) no se publica.
