@@ -85,8 +85,9 @@ A partir de él, se definen los siguientes objetivos específicos:
 4. Validar el sistema en laboratorio y documentar su despliegue en la planta
    piloto (guía de instalación para el montaje por personal de la ESI), verificando
    la calidad de las medidas (continuidad, razonabilidad y resolución temporal).
-5. Caracterizar el consumo real de las cargas instaladas como primera evidencia
-   empírica de la planta.
+5. Caracterizar el consumo de cargas reales disponibles en laboratorio y, si el
+   despliegue en la planta piloto se produce durante el curso, también de la
+   propia planta, como evidencia empírica del consumo.
 6. *(Opcional)* Integrar medida no invasiva por pinzas amperimétricas para la
    línea general o cargas no accesibles por enchufe.
 

@@ -1,8 +1,5 @@
 # Propuesta de TFG — Sistema de monitorización energética para planta piloto de cultivo vertical
 
-> Borrador v0.1 (reconstruido el 2026-11-14; original redactado la semana del
-> 10-11-2026 y subido a la plataforma ESI). Verificar contra la versión subida.
-
 - **Titulación:** Grado en Ingeniería en Tecnologías Industriales
 - **Escuela:** Escuela Superior de Ingeniería, Universidad de Cádiz
 - **Alumno:** Miguel Ángel Castillo Sánchez
@@ -42,8 +39,9 @@ proporcione medidas fiables de las cargas eléctricas presentes y futuras.
 4. Validar el sistema en laboratorio y documentar su despliegue en la planta
    piloto (guía de instalación para el montaje por personal de la ESI), verificando
    la calidad de las medidas (continuidad, razonabilidad y resolución temporal).
-5. Caracterizar el consumo real de las cargas instaladas como primera evidencia
-   empírica de la planta.
+5. Caracterizar el consumo de cargas reales disponibles en laboratorio y —si el
+   despliegue en la planta piloto se produce durante el curso, con acceso remoto
+   a los datos— también de la propia planta, como evidencia empírica del consumo.
 6. *(Opcional)* Integrar medida no invasiva por pinzas amperimétricas (CT) para
    la línea general o cargas no accesibles por enchufe.
 
@@ -80,10 +78,12 @@ Markdown y diagramas en formato editable (draw.io).
 
 1. **Retraso del levantamiento de datos en sala** (pendiente de confirmar) →
    trabajar con hipótesis documentadas hasta entonces.
-2. **Instalación eléctrica desconocida** → ninguna compra definitiva antes del
-   levantamiento de datos en sala.
-3. **Datos de medida insuficientes** → escenario B: validación en laboratorio
-   propio y simulación de datos declarada como tal.
+2. **Instalación eléctrica desconocida** → definir el material de medida tras el
+   levantamiento de datos; la adquisición la gestiona la UCA.
+3. **No se produce el despliegue en la planta piloto durante el curso** →
+   escenario B: validación en laboratorio propio con cargas reales y despliegue
+   documentado en la memoria. El TFG emplea únicamente datos reales (laboratorio
+   y/o planta piloto).
 4. **Restricciones de red de la universidad** → arquitectura con broker local;
    la publicación de datos se hace desde el propio datalogger.
 
