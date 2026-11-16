@@ -1,18 +1,35 @@
 ::: {.portada}
+::: {.portada-entidad}
+ESCUELA SUPERIOR DE INGENIERÍA
+
+GRADO EN INGENIERÍA EN TECNOLOGÍAS INDUSTRIALES
+:::
 ::: {.portada-titulo}
-Monitorización energética de una planta piloto de cultivo vertical
+MONITORIZACIÓN ENERGÉTICA DE UNA PLANTA PILOTO DE CULTIVO VERTICAL
 :::
-::: {.portada-subtitulo}
-Trabajo de Fin de Grado — Grado en Ingeniería en Tecnologías Industriales
-:::
-::: {.portada-datos}
-Escuela Superior de Ingeniería · Universidad de Cádiz
-
-**Autor:** Miguel Ángel Castillo Sánchez
-
-**Tutor:** Salvador Canas Moreno (UCA, TEP-940 Robótica Aplicada)
+::: {.portada-autor}
+AUTOR: MIGUEL ÁNGEL CASTILLO SÁNCHEZ
 :::
 ::: {.portada-pie}
-Curso 2026-27 · Borrador de trabajo
+Cádiz, noviembre 2026
+:::
+:::
+
+::: {.portada}
+::: {.portada-entidad}
+ESCUELA SUPERIOR DE INGENIERÍA
+
+GRADO EN INGENIERÍA EN TECNOLOGÍAS INDUSTRIALES
+:::
+::: {.portada-titulo}
+MONITORIZACIÓN ENERGÉTICA DE UNA PLANTA PILOTO DE CULTIVO VERTICAL
+:::
+::: {.portada-autor}
+DIRECTOR: SALVADOR CANAS MORENO
+
+AUTOR: MIGUEL ÁNGEL CASTILLO SÁNCHEZ
+:::
+::: {.portada-pie}
+Cádiz, noviembre 2026
 :::
 :::
